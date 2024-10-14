@@ -1,4 +1,4 @@
-# convertor-app
+# currency-convertor-app
 
 
 ## Installation
