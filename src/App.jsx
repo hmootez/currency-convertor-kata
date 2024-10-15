@@ -54,7 +54,7 @@ function App() {
       if (fixRate) {
         // variation more than 2%
         if (
-          Math.abs(((newRate - manualChangeRate) / manualChangeRate) * 100) > 20
+          Math.abs(((newRate - manualChangeRate) / manualChangeRate) * 100) > 2
         ) {
           setChangeRate(newRate);
           setFixRate(false);

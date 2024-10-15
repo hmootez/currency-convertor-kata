@@ -8,7 +8,7 @@ Couverture plus importante des tests
 Intégration de lib de gestion d'état 
 ```
 
-Idées Foctionelles
+Idées Fonctionelles
 
 ```
 Rajouter Plus de choix de devise

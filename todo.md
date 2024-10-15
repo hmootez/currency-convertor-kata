@@ -9,4 +9,6 @@ Inline styling ( css )
 
 Utilisations des hooks ( hook customisé)
 
+Utilisation de useCallback pour plus de performance
+
 ```
