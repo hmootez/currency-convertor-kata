@@ -54,7 +54,7 @@ function App() {
       if (fixRate) {
         // variation more than 2%
         if (
-          Math.abs(((newRate - manualChangeRate) / manualChangeRate) * 100) > 2
+          Math.abs(((newRate - manualChangeRate) / manualChangeRate) * 100) > 20
         ) {
           setChangeRate(newRate);
           setFixRate(false);
@@ -79,12 +79,7 @@ function App() {
       <Box data-testid="fix-rate-checkbox">
         <FormGroup>
           <FormControlLabel
-            control={
-              <Checkbox
-                onChange={() => setFixRate(!fixRate)}
-                checked={fixRate}
-              />
-            }
+            control={<Checkbox onChange={() => setFixRate(!fixRate)} />}
             label="Fixer le taux de change"
           />
         </FormGroup>
